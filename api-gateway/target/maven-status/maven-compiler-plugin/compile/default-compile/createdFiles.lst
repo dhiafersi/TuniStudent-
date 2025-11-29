@@ -1,0 +1,3 @@
+com\tunistudent\gateway\AuthenticationFilter.class
+com\tunistudent\gateway\ApiGatewayApplication.class
+com\tunistudent\gateway\CorsConfig.class

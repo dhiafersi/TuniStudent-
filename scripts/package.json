@@ -1,0 +1,11 @@
+{
+    "name": "tunistudent-migration",
+    "version": "1.0.0",
+    "description": "Data migration scripts for TuniStudent",
+    "scripts": {
+        "migrate-users": "node migrate-users.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.2"
+    }
+}

@@ -1,0 +1,599 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.tunistudent:tunistudent >---------------------
+[INFO] Building TuniStudent 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ tunistudent ---
+[INFO] Deleting C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tunistudent ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tunistudent ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 52 source files with javac [debug parameters release 17] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AdminChatController.java: C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\backend\src\main\java\com\tunistudent\controller\AdminChatController.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AdminChatController.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CommentService.java:[12,5] org.springframework.beans.factory.annotation.Autowired is not a repeatable annotation interface
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[45,64] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.City
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[51,67] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Category
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[56,34] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[66,36] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[78,49] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.City
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[80,49] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.City
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[83,57] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Category
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[85,57] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Category
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[87,57] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Category
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[89,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[101,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[113,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AdminChatController.java:[92,60] cannot find symbol
+  symbol:   method getId()
+  location: variable admin of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AuthController.java:[44,77] cannot find symbol
+  symbol:   method getRoles()
+  location: class com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AuthController.java:[54,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AuthController.java:[61,58] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AuthController.java:[61,94] cannot find symbol
+  symbol:   method getRoles()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ChatController.java:[34,62] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ChatController.java:[42,31] cannot find symbol
+  symbol:   method getRoles()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ChatController.java:[44,62] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/CommentController.java:[40,72] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CommentService.java:[20,16] cannot find symbol
+  symbol:   variable commentRepository
+  location: class com.tunistudent.service.CommentService
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CommentService.java:[24,16] cannot find symbol
+  symbol:   variable commentRepository
+  location: class com.tunistudent.service.CommentService
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[213,31] cannot find symbol
+  symbol:   method getStatus()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[226,52] cannot find symbol
+  symbol:   method getCityId()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[228,64] cannot find symbol
+  symbol:   method getCategoryId()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[231,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[232,31] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[233,37] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[234,34] cannot find symbol
+  symbol:   method getImageUrl()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[237,31] cannot find symbol
+  symbol:   method getPrice()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[238,34] cannot find symbol
+  symbol:   method getDiscount()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[239,34] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[240,40] cannot find symbol
+  symbol:   method getExpirationDate()
+  location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[256,17] cannot find symbol
+  symbol:   method getStatus()
+  location: variable deal of type @jakarta.validation.Valid com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[257,17] cannot find symbol
+  symbol:   method setStatus(com.tunistudent.model.Deal.DealStatus)
+  location: variable deal of type @jakarta.validation.Valid com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[268,32] cannot find symbol
+  symbol:   method getId()
+  location: variable existing of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[271,21] cannot find symbol
+  symbol:   method getSubmittedBy()
+  location: variable body of type @jakarta.validation.Valid com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[271,58] cannot find symbol
+  symbol:   method getSubmittedBy()
+  location: variable existing of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[272,45] cannot find symbol
+  symbol:   method getSubmittedBy()
+  location: variable existing of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[313,58] cannot find symbol
+  symbol:   method getId()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[313,87] cannot find symbol
+  symbol:   method getTitle()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[313,120] cannot find symbol
+  symbol:   method getStatus()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[316,31] cannot find symbol
+  symbol:   method getId()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[317,36] cannot find symbol
+  symbol:   method getTitle()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[317,62] cannot find symbol
+  symbol:   method getTitle()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[320,17] cannot find symbol
+  symbol:   method setStatus(com.tunistudent.model.Deal.DealStatus)
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[332,49] constructor DealStatusUpdateResponse in class com.tunistudent.dto.DealStatusUpdateResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.Long,java.lang.String,com.tunistudent.model.Deal.DealStatus,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[369,53] cannot find symbol
+  symbol:   method getTitle()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[369,94] cannot find symbol
+  symbol:   method getStatus()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[372,31] cannot find symbol
+  symbol:   method getId()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[373,36] cannot find symbol
+  symbol:   method getTitle()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[375,17] cannot find symbol
+  symbol:   method setStatus(com.tunistudent.model.Deal.DealStatus)
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[377,66] cannot find symbol
+  symbol:   method getId()
+  location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[377,101] cannot find symbol
+  symbol:   method getStatus()
+  location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[380,49] constructor DealStatusUpdateResponse in class com.tunistudent.dto.DealStatusUpdateResponse cannot be applied to given types;
+  required: no arguments
+  found:    savedDeal.[...]ealId,savedDeal.[...]: ""),savedDeal.[...]ECTED,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[383,26] cannot find symbol
+  symbol:   method getStatus()
+  location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[383,58] cannot find symbol
+  symbol:   method getStatus()
+  location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[382,26] cannot find symbol
+  symbol:   method getTitle()
+  location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[382,57] cannot find symbol
+  symbol:   method getTitle()
+  location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[381,26] cannot find symbol
+  symbol:   method getId()
+  location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[381,54] cannot find symbol
+  symbol:   method getId()
+  location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[399,17] cannot find symbol
+  symbol:   method getCity()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[399,43] cannot find symbol
+  symbol:   method getCity()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[400,50] cannot find symbol
+  symbol:   method getCity()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[401,17] cannot find symbol
+  symbol:   method setCity(com.tunistudent.model.City)
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[403,17] cannot find symbol
+  symbol:   method getCategory()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[403,47] cannot find symbol
+  symbol:   method getCategory()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[404,60] cannot find symbol
+  symbol:   method getCategory()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[405,17] cannot find symbol
+  symbol:   method setCategory(com.tunistudent.model.Category)
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/FavoriteController.java:[51,23] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Favorite
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/FavoriteController.java:[61,100] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/FavoriteController.java:[68,106] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/FavoriteController.java:[74,120] cannot find symbol
+  symbol:   method getId()
+  location: variable favorite of type com.tunistudent.model.Favorite
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/NotificationController.java:[34,79] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/NotificationController.java:[40,89] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/RatingController.java:[38,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.tunistudent.model.Rating
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/RatingController.java:[39,15] cannot find symbol
+  symbol:   method setStars(int)
+  location: variable rating of type com.tunistudent.model.Rating
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/RatingController.java:[52,32] invalid method reference
+  cannot find symbol
+    symbol:   method getStars()
+    location: class com.tunistudent.model.Rating
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ReservationController.java:[34,77] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ReservationController.java:[52,75] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ReservationController.java:[58,85] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/UserController.java:[42,27] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[24,17] cannot find symbol
+  symbol:   method getStatus()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[24,44] cannot find symbol
+  symbol:   method getStatus()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[23,17] cannot find symbol
+  symbol:   method getTitle()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[23,43] cannot find symbol
+  symbol:   method getTitle()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[22,17] cannot find symbol
+  symbol:   method getId()
+  location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CustomUserDetailsService.java:[27,49] cannot find symbol
+  symbol:   method getRoles()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CustomUserDetailsService.java:[31,21] cannot find symbol
+  symbol:   method getUsername()
+  location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CustomUserDetailsService.java:[31,41] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.tunistudent.model.User
+[INFO] 92 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.996 s
+[INFO] Finished at: 2025-11-21T14:07:18+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project tunistudent: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CommentService.java:[12,5] org.springframework.beans.factory.annotation.Autowired is not a repeatable annotation interface
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[45,64] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.City
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[51,67] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Category
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[56,34] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[66,36] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[78,49] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.City
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[80,49] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.City
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[83,57] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Category
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[85,57] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Category
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[87,57] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Category
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[89,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[101,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/config/DataSeeder.java:[113,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AdminChatController.java:[92,60] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable admin of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AuthController.java:[44,77] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: class com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AuthController.java:[54,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AuthController.java:[61,58] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/AuthController.java:[61,94] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ChatController.java:[34,62] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ChatController.java:[42,31] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ChatController.java:[44,62] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/CommentController.java:[40,72] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CommentService.java:[20,16] cannot find symbol
+[ERROR]   symbol:   variable commentRepository
+[ERROR]   location: class com.tunistudent.service.CommentService
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CommentService.java:[24,16] cannot find symbol
+[ERROR]   symbol:   variable commentRepository
+[ERROR]   location: class com.tunistudent.service.CommentService
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[213,31] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[226,52] cannot find symbol
+[ERROR]   symbol:   method getCityId()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[228,64] cannot find symbol
+[ERROR]   symbol:   method getCategoryId()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[231,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[232,31] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[233,37] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[234,34] cannot find symbol
+[ERROR]   symbol:   method getImageUrl()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[237,31] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[238,34] cannot find symbol
+[ERROR]   symbol:   method getDiscount()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[239,34] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[240,40] cannot find symbol
+[ERROR]   symbol:   method getExpirationDate()
+[ERROR]   location: variable request of type @jakarta.validation.Valid com.tunistudent.dto.DealSubmissionRequest
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[256,17] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable deal of type @jakarta.validation.Valid com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[257,17] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.tunistudent.model.Deal.DealStatus)
+[ERROR]   location: variable deal of type @jakarta.validation.Valid com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[268,32] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable existing of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[271,21] cannot find symbol
+[ERROR]   symbol:   method getSubmittedBy()
+[ERROR]   location: variable body of type @jakarta.validation.Valid com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[271,58] cannot find symbol
+[ERROR]   symbol:   method getSubmittedBy()
+[ERROR]   location: variable existing of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[272,45] cannot find symbol
+[ERROR]   symbol:   method getSubmittedBy()
+[ERROR]   location: variable existing of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[313,58] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[313,87] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[313,120] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[316,31] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[317,36] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[317,62] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[320,17] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.tunistudent.model.Deal.DealStatus)
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[332,49] constructor DealStatusUpdateResponse in class com.tunistudent.dto.DealStatusUpdateResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.Long,java.lang.String,com.tunistudent.model.Deal.DealStatus,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[369,53] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[369,94] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[372,31] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[373,36] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[375,17] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.tunistudent.model.Deal.DealStatus)
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[377,66] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[377,101] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[380,49] constructor DealStatusUpdateResponse in class com.tunistudent.dto.DealStatusUpdateResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    savedDeal.[...]ealId,savedDeal.[...]: ""),savedDeal.[...]ECTED,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[383,26] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[383,58] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[382,26] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[382,57] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[381,26] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[381,54] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable savedDeal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[399,17] cannot find symbol
+[ERROR]   symbol:   method getCity()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[399,43] cannot find symbol
+[ERROR]   symbol:   method getCity()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[400,50] cannot find symbol
+[ERROR]   symbol:   method getCity()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[401,17] cannot find symbol
+[ERROR]   symbol:   method setCity(com.tunistudent.model.City)
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[403,17] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[403,47] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[404,60] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/DealController.java:[405,17] cannot find symbol
+[ERROR]   symbol:   method setCategory(com.tunistudent.model.Category)
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/FavoriteController.java:[51,23] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Favorite
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/FavoriteController.java:[61,100] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/FavoriteController.java:[68,106] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/FavoriteController.java:[74,120] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable favorite of type com.tunistudent.model.Favorite
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/NotificationController.java:[34,79] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/NotificationController.java:[40,89] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/RatingController.java:[38,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tunistudent.model.Rating
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/RatingController.java:[39,15] cannot find symbol
+[ERROR]   symbol:   method setStars(int)
+[ERROR]   location: variable rating of type com.tunistudent.model.Rating
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/RatingController.java:[52,32] invalid method reference
+[ERROR]   cannot find symbol
+[ERROR]     symbol:   method getStars()
+[ERROR]     location: class com.tunistudent.model.Rating
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ReservationController.java:[34,77] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ReservationController.java:[52,75] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/ReservationController.java:[58,85] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/controller/UserController.java:[42,27] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[24,17] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[24,44] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[23,17] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[23,43] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/dto/DealStatusUpdateResponse.java:[22,17] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable deal of type com.tunistudent.model.Deal
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CustomUserDetailsService.java:[27,49] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CustomUserDetailsService.java:[31,21] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] /C:/Users/dhiaf/OneDrive/Desktop/TuniStudent - Copy (2)/backend/src/main/java/com/tunistudent/service/CustomUserDetailsService.java:[31,41] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.tunistudent.model.User
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
