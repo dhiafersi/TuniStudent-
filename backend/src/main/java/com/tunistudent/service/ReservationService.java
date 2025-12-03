@@ -17,9 +17,10 @@ public class ReservationService {
 
     public Reservation createReservation(Long userId, Long dealId, String dealTitle, java.time.LocalDateTime reservationDate, Integer partySize, String specialRequests) {
         // Allow multiple reservations for different dates if it's a table reservation
-        if (reservationDate == null && reservationRepository.existsByUserIdAndDealId(userId, dealId)) {
-             throw new RuntimeException("You have already reserved this deal.");
-        }
+        // Allow multiple reservations for different dates if it's a table reservation
+        // if (reservationDate == null && reservationRepository.existsByUserIdAndDealId(userId, dealId)) {
+        //      throw new RuntimeException("You have already reserved this deal.");
+        // }
         
         String code = "RES-" + UUID.randomUUID().toString().substring(0, 8).toUpperCase();
         Reservation reservation = new Reservation(userId, dealId, dealTitle, code, reservationDate, partySize, specialRequests);

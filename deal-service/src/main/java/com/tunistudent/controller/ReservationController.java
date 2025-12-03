@@ -34,21 +34,31 @@ public class ReservationController {
     }
 
     @PostMapping
-    public ResponseEntity<Reservation> createReservation(@RequestBody Map<String, Object> request) {
-        User user = getCurrentUser();
-        Long dealId = Long.valueOf(request.get("dealId").toString());
-        String dealTitle = (String) request.get("dealTitle");
-        
-        // Optional fields
-        java.time.LocalDateTime reservationDate = null;
-        if (request.get("reservationDate") != null) {
-            reservationDate = java.time.LocalDateTime.parse((String) request.get("reservationDate"));
+    public ResponseEntity<?> createReservation(@RequestBody Map<String, Object> request) {
+        try {
+            User user = getCurrentUser();
+            Long dealId = Long.valueOf(request.get("dealId").toString());
+            String dealTitle = (String) request.get("dealTitle");
+            
+            // Optional fields - handle empty strings as null
+            java.time.LocalDateTime reservationDate = null;
+            if (request.get("reservationDate") != null) {
+                String dateStr = request.get("reservationDate").toString().trim();
+                if (!dateStr.isEmpty()) {
+                    reservationDate = java.time.LocalDateTime.parse(dateStr);
+                }
+            }
+            
+            Integer partySize = request.get("partySize") != null ? Integer.valueOf(request.get("partySize").toString()) : null;
+            String specialRequests = (String) request.get("specialRequests");
+            
+            Reservation reservation = reservationService.createReservation(user.getId(), dealId, dealTitle, reservationDate, partySize, specialRequests);
+            return ResponseEntity.ok(reservation);
+        } catch (Exception e) {
+            System.err.println("Error creating reservation: " + e.getMessage());
+            e.printStackTrace();
+            return ResponseEntity.status(500).body(Map.of("error", e.getMessage()));
         }
-        
-        Integer partySize = request.get("partySize") != null ? Integer.valueOf(request.get("partySize").toString()) : null;
-        String specialRequests = (String) request.get("specialRequests");
-        
-        return ResponseEntity.ok(reservationService.createReservation(user.getId(), dealId, dealTitle, reservationDate, partySize, specialRequests));
     }
     
     @GetMapping("/stats")

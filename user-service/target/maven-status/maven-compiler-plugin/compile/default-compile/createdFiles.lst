@@ -1,3 +1,4 @@
+com\tunistudent\controller\AIController.class
 com\tunistudent\repository\FavoriteRepository.class
 com\tunistudent\model\Rating$RatingBuilder.class
 com\tunistudent\service\CustomUserDetailsService.class
@@ -30,6 +31,7 @@ com\tunistudent\model\Category$CategoryBuilder.class
 com\tunistudent\model\Favorite$FavoriteBuilder.class
 com\tunistudent\controller\FavoriteController.class
 com\tunistudent\model\Reservation$ReservationStatus.class
+com\tunistudent\service\AIService.class
 com\tunistudent\model\User$UserBuilder.class
 com\tunistudent\controller\GlobalExceptionHandler.class
 com\tunistudent\model\Deal.class

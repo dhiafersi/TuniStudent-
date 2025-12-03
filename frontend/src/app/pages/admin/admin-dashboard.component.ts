@@ -8,6 +8,8 @@ import { CategoryService } from '../../services/category.service';
 import { AdminChatPanelComponent } from './admin-chat-panel.component';
 import { AdminReservationComponent } from './admin-reservation.component';
 
+import { AuthService } from '../../services/auth.service';
+
 @Component({
   selector: 'app-admin-dashboard',
   standalone: true,
@@ -15,25 +17,30 @@ import { AdminReservationComponent } from './admin-reservation.component';
   template: `
     <div class="glass p-4 md:p-6">
       <!-- Tabs -->
-      <div class="flex gap-4 mb-6 border-b border-gray-200 dark:border-gray-700">
-        <button 
-          (click)="activeTab.set('deals')" 
-          [class.border-b-2]="activeTab() === 'deals'"
-          [class.border-blue-500]="activeTab() === 'deals'"
-          [class.text-blue-500]="activeTab() === 'deals'"
-          class="px-4 py-2 font-semibold dark:text-white">Deal Management</button>
-        <button 
-          (click)="activeTab.set('messages')" 
-          [class.border-b-2]="activeTab() === 'messages'"
-          [class.border-blue-500]="activeTab() === 'messages'"
-          [class.text-blue-500]="activeTab() === 'messages'"
-          class="px-4 py-2 font-semibold dark:text-white">User Messages</button>
-        <button 
-          (click)="activeTab.set('reservations')" 
-          [class.border-b-2]="activeTab() === 'reservations'"
-          [class.border-blue-500]="activeTab() === 'reservations'"
-          [class.text-blue-500]="activeTab() === 'reservations'"
-          class="px-4 py-2 font-semibold dark:text-white">Reservations</button>
+      <div class="flex justify-between items-center mb-6 border-b border-gray-200 dark:border-gray-700 pb-2">
+        <div class="flex gap-4">
+          <button 
+            (click)="activeTab.set('deals')" 
+            [class.border-b-2]="activeTab() === 'deals'"
+            [class.border-blue-500]="activeTab() === 'deals'"
+            [class.text-blue-500]="activeTab() === 'deals'"
+            class="px-4 py-2 font-semibold dark:text-white">Deal Management</button>
+          <button 
+            (click)="activeTab.set('messages')" 
+            [class.border-b-2]="activeTab() === 'messages'"
+            [class.border-blue-500]="activeTab() === 'messages'"
+            [class.text-blue-500]="activeTab() === 'messages'"
+            class="px-4 py-2 font-semibold dark:text-white">User Messages</button>
+          <button 
+            (click)="activeTab.set('reservations')" 
+            [class.border-b-2]="activeTab() === 'reservations'"
+            [class.border-blue-500]="activeTab() === 'reservations'"
+            [class.text-blue-500]="activeTab() === 'reservations'"
+            class="px-4 py-2 font-semibold dark:text-white">Reservations</button>
+        </div>
+        <button (click)="logout()" class="btn-glass bg-red-500/10 hover:bg-red-500/20 text-red-500 px-4 py-2">
+          Logout
+        </button>
       </div>
 
       <!-- Deal Management Tab -->
@@ -218,8 +225,13 @@ export class AdminDashboardComponent implements OnInit {
     private dealService: DealService,
     private cityService: CityService,
     private categoryService: CategoryService,
-    private router: Router
+    private router: Router,
+    private authService: AuthService
   ) { }
+
+  logout() {
+    this.authService.logout();
+  }
 
   ngOnInit(): void {
     this.loadDeals();

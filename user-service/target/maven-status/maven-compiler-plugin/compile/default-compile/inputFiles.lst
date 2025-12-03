@@ -1,4 +1,5 @@
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\config\DataSeeder.java
+C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\controller\AIController.java
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\controller\DebugController.java
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\controller\FavoriteController.java
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\controller\GlobalExceptionHandler.java
@@ -26,6 +27,7 @@ C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\jav
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\repository\ReservationRepository.java
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\repository\UserRepository.java
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\security\SecurityConfig.java
+C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\service\AIService.java
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\service\CustomUserDetailsService.java
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\service\SecurityUserService.java
 C:\Users\dhiaf\OneDrive\Desktop\TuniStudent - Copy (2)\user-service\src\main\java\com\tunistudent\UserServiceApplication.java
